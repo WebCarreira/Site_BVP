@@ -12,12 +12,12 @@
             <img  class="logo" src="imagens/fenix_bvp.png" alt="fénix bombeiros de pombal">
         </div>
         <nav>
-            <ul>
-                <li><a href="home.html"><img class="home" src="imagens/house-solid.svg" alt=""></a></li>
-                <li>Sobre
-                    <ul>
-                        <li>Companhias
-                            <ul>
+            <ul class="nav_container">
+                <li class="menu_home"><a href="home.html"><img class="logo_medias" src="imagens/house-solid.svg" alt=""></a></li>
+                <li class="menu_sobre" ><a href="#">Sobre</a>
+                    <ul class="sub_menu1">
+                        <li><a href="#">Companhias</a>
+                            <ul class="sub_menu2">
                                 <li><a href="sede.html">1ª e 2ª Companhia</a></li>
                                 <li><a href="3companhia.html">3ª Companhia</a></li>
                                 <li><a href="4companhia.html">4ª Companhia</a></li>
@@ -28,17 +28,11 @@
                         <li><a href="historia.html">História</a></li>
                     </ul>
                 </li>
-                <li><a href="servicos.html">Serviços</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="contatos.html">Contactos</a></li>
+                <li class="menu_servicos"><a href="servicos.html">Serviços</a></li>
+                <li class="menu_galeria"><a href="galeria.html">Galeria</a></li>
+                <li class="menu_contatos"><a href="contatos.html">Contactos</a></li>
             </ul>
         </nav>
-        <form action="/search" method="get">
-            <label for="search">Pesquisar:</label>
-            <input type="text" id="search" name="q">
-            <button type="submit">Search</button>
-        </form>
-        
     </header>
     <main>
         <section>
@@ -52,37 +46,39 @@
         <section>
             <h2>Alertas à população</h2>
         </section>
-        <section>
-            <h2>Notícia A</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore, 
-                alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
-        </section>
-        <section>
-            <h2>Notícia B</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore, 
-                alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
-        </section>
-        <section>
-            <h2>Notícia C</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore, 
-                alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
-        </section>
-        <section>
-            <h2>Notícia D</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore, 
-                alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
+        <section class="noticias_container">
+            <div class="n1">
+                <h2>Notícia A</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore,
+                    alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
+            </div>
+            <div class="n2">
+                <h2>Notícia B</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore,
+                    alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
+            </div>
+            <div class="n3">
+                <h2>Notícia C</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore,
+                    alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
+            </div>
+            <div class="n4">
+                <h2>Notícia D</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quos ipsa odio laboriosam ab. Repellendus voluptatum exercitationem eos voluptatem sapiente dolore,
+                    alias soluta quae unde vero? Ex fugit officia eum pariatur.</p>
+            </div>
         </section>
     </main>
     <footer>
         <ul>
-            <li><a href="#"><img class="home" src="imagens/facebook-brands-solid.svg" alt="Facebook"></a></li>
-            <li><a href="#"><img class="home" src="imagens/linkedin-brands-solid.svg" alt="Linkedin"></a></li>
-            <li><a href="#"><img class="home" src="imagens/instagram-brands-solid.svg" alt="Instagram"></a></li>
-            <li><a href="#"><img class="home" src="imagens/tiktok-brands-solid.svg" alt="Tik-Tok"></a></li>
+            <li><a href="#"><img class="logo_medias" src="imagens/facebook-brands-solid.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img class="logo_medias" src="imagens/linkedin-brands-solid.svg" alt="Linkedin"></a></li>
+            <li><a href="#"><img class="logo_medias" src="imagens/instagram-brands-solid.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img class="logo_medias" src="imagens/tiktok-brands-solid.svg" alt="Tik-Tok"></a></li>
             <li><a href="formularios.html">Formulários</a></li>
             <li><a href="patrocinadores.html">Patrocinadores</a></li>
             <li><a href="farmacias.html">Farmácias de Serviço</a></li>
