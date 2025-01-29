@@ -1,5 +1,5 @@
 body{
-    width: 100vw;
+    width: 98%;
     height: 100vh;
 }
 .logo{
@@ -37,8 +37,8 @@ li{
     grid-row: 1;
 }
 .noticias_container .n4{
-    grid-column: 4;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
 }
 .nav_container{
     display: grid;
