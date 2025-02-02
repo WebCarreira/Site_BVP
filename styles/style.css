@@ -67,3 +67,52 @@ li{
     grid-column: 1;
     grid-row: 2;
 }
+/*Rodapé*/
+/*redes sociais*/
+.medias_container{
+    display: grid;
+    grid-column: 10px 10px 10px;
+    grid-row: 10px 10px;
+}
+.facebook{
+    grid-column: 1;
+    grid-row: 1;
+}
+.linkedin{
+    grid-column: 2;
+    grid-row: 1;
+}
+.instagram{
+    grid-column: 3;
+    grid-row: 1;
+}
+.tik-tok{
+    grid-column: 4;
+    grid-row: 1;
+}
+/*menu rodapé*/
+.footer_container_menu{
+    display: grid;
+    grid-column: 50px 50px 50px;
+    grid-row: 50px 50px;
+}
+.formularios{
+    grid-column: 1;
+    grid-row: 1;
+}
+.patrocinadores{
+    grid-column: 3;
+    grid-row: 1;
+}
+.farmacias{
+    grid-column: 2;
+    grid-row: 1;
+}
+.contactos_uteis{
+    grid-column: 1;
+    grid-row: 2;
+}
+.area_reservada{
+    grid-column: 2;
+    grid-row: 2;
+}
