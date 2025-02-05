@@ -40,14 +40,22 @@
                 <source src="videos/221955_small.mp4" type="video/mp4">
             </video>
         </section>
-        <section>
+        <section class="botoes_container">
             <ul class="botoes">
                 <li class="candidatar"><a href="#">Candidata-te Já!</a></li>
                 <li class="socio"><a href="#">Torna-te Sócio!</a></li>
             </ul>
         </section>
-        <section>
+        <section class="eventos">
             <h2>Calendário de eventos</h2>
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <button id="prevMonth">❮</button>
+                    <h2 id="monthYear"></h2>
+                    <button id="nextMonth">❯</button>
+                </div>
+                <div class="calendar-grid" id="calendar"></div>
+            </div>
         </section>
         <section>
             <h2>Alertas à população</h2>
@@ -107,5 +115,6 @@
         </ul>
         
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
