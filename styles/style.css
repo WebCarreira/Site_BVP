@@ -181,8 +181,9 @@ li{
     /*redes sociais*/
     .medias_container{
         display: grid;
-        grid-column: 10px 10px 10px;
-        grid-row: 10px 10px;
+        grid-template-columns: 30px 30px 30px 30px;
+        justify-content: center;
+        margin: 15px;
     }
     .facebook{
         grid-column: 1;
@@ -203,8 +204,8 @@ li{
     /*menu rodapé*/
     .footer_container_menu{
         display: grid;
-        grid-column: 50px 50px 50px;
-        grid-row: 50px 50px;
+        grid-template-columns: 150px 150px 150px;
+        justify-content: center;
     }
     .formularios{
         grid-column: 1;
