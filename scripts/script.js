@@ -8,7 +8,7 @@ let currentDate = new Date();
 const events = {
     "2025-02-14": "Dia dos Namorados",
     "2025-02-20": "Reunião da Equipa",
-    "2025-02-28": "Lançamento do Projeto",
+    "2025-05-18": "Lançamento do Projeto",
     "2025-03-10": "Evento Corporativo",
 };
 
