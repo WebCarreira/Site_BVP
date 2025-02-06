@@ -149,6 +149,26 @@ li{
     .alertas h2{
         text-align: center;
     }
+    .imagens_previsao_container{
+        display: grid;
+        grid-template-columns: 55px 55px;
+        justify-content: center;
+    }
+    .previsao{
+        width: 50px;
+        height: 50px;
+    }
+    .alerta_tempo{
+        width: 50px;
+        height: 50px;
+    }
+    .texto_previsao{
+        display: grid;
+        grid-template-columns: 500px;
+        justify-content: center;
+        margin: 5px;
+        padding: 5px;
+    }
     /*Secção Notícias*/
     .noticias_container{
         display: grid;
